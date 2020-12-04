@@ -1,0 +1,85 @@
+XX YY ZZ YY XX
+wherein
+XX is function
+YY is item 1
+ZZ is item 2
+01 0F 02 0F 01 = 
+Combine/Add to (function 01) HG Bullets (item 0F) with Handgun (item 02), and the reverse, as well.
+The structure defines that Bullets/Handun can be combined with Handgun/Bullets.
+*02 seems to exchange the ammunition, so that a Clip with 4 bullets will be placed inside a Handgun with 12,
+and the 12 bullets will be placed outside the gun as a 12 bullet clip.
+
+So:
+
+
+OFFSET	POINTER	- VALUE
+
+CA608 - 50 CA 4C - Handgun.
+
+CA60C - 55 CA 4C - Shotgun. 
+
+CA610 - 5A CA 4C - Colt (DumDum)
+
+CA614 - 5F CA 4C - Colt (Regular)
+
+CA618 - 64 CA 4C - Flamethrower.
+
+CA61C - 69 CA 4C - GLauncher w/Explosives.
+
+CA620 - 76 CA 4C - GLauncher w/Acid.
+
+CA624 - 83 CA 4C - GLauncher w/Flame.
+
+CA628 - 90 CA 4C - HG. Bullets.
+
+CA62C - 99 CA 4C - Shot. Shells.
+
+CA630 - A2 CA 4C - DumDum Rounds.
+
+CA634 - AB CA 4C - Magnum Rounds.
+
+CA638 - B4 CA 4C - Fuel.
+
+CA63C - BD CA 4C - Explosive Rounds.
+
+CA640 - CE CA 4C - Acid Rounds.
+
+CA644 - DF CA 4C - Flame Rounds.
+
+CA648 - F0 CA 4C - Empty bottle.
+
+CA64C - F1 CA 4C - Water.
+
+CA650 - 0E CB 4C - 
+
+CA654 - 2B CB 4C - 
+
+CA658 - 48 CB 4C - 
+
+CA65C - 65 CB 4C - 
+
+CA660 - 82 CB 4C - 
+
+CA664 - 9F CB 4C - 
+
+CA668 - BC CB 4C - 
+
+CA66C - BD CB 4C - 
+
+CA670 - C2 CB 4C - 
+
+CA674 - CB CB 4C - 
+
+CA678 - E0 CB 4C - 
+
+CA67C - ED CB 4C - 
+
+CA680 - F2 CB 4C - 
+
+CA684 - FB CB 4C - 
+
+CA688 - 04 CC 4C - G+B+R Herbs
+
+CA68C - 05 CC 4C -
+
+CA690 - 06 CC 4C -

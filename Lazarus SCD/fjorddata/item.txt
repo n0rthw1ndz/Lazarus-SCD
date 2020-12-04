@@ -1,0 +1,88 @@
+POINTER		OFFSET		NUMBER	HEX CODE
+
+		CA6C0		01	- 00 01 80 80 - knife
+		CA6C4		02	- 0F 02 00 80 - handgun
+		CA6C8		03	- 07 03 01 80 - shotgun
+		CA6CC		04	- 06 04 02 80 - colt (Dum Dum)
+		CA6D0		05	- 06 04 03 80 - colt (Magnum)
+		CA6D4		06	- F0 05 04 80 - flamethrower
+		CA6D8		07	- 06 06 05 80 - g launcher
+		CA6DC		08	- 06 06 06 80 - g launcher
+		CA6E0		09	- 06 06 07 80 - g launcher
+		CA6E4		0A	- 04 07 80 80 - rocket launcher: only weapon with 4 ammo
+		CA6E8		0B	- 0F 08 08 80 - handgun clip
+		CA6EC		0C	- 07 09 09 80 - shotgun shell
+		CA6F0		0D	- 06 0A 0A 80 - dum dum rounds - ammo 
+		CA6F4		0E	- 06 0B 0B 80 - magnum rounds  - ammo
+		CA6F8		0F	- F0 0C 0C 80 - flamethrower fuel (unused?)
+		CA6FC		10	- 06 0D 0D 80 - explosive rounds
+		CA700		11	- 06 0E 0E 80 - acid rounds
+		CA704		12	- 06 0F 0F 80 - flame rounds
+
+
+POINTER		OFFSET		NUMBER	HEX CODE
+
+		CA708		13	- 01 10 10 80 - empty bottle
+		CA70C		14	- 01 11 11 80 - water
+		CA710		15	- 01 12 12 80 - umb no.2
+		CA714		16	- 01 13 13 80 - umb no.4
+		CA718		17	- 01 14 14 80 - umb no.7
+		CA71C		18	- 01 15 15 80 - umb no.13
+		CA720		19	- 01 16 16 80 - yellow 6
+		CA724		1A	- 01 17 17 80 - np 003
+		CA728		1B	- 01 18 18 80 - v-jolt
+		CA72C		1C	- 01 19 80 80 - broken shotgun
+		CA730		1D	- 00 1A 80 00 - square crank
+		CA734		1E	- 00 1B 80 01 - hex crank
+		CA738		1F	- 01 1C 80 80 - wood emblem
+		CA73C		20	- 01 1D 80 80 - gold emblem
+		CA740		21	- 01 1E 80 80 - blue jewel
+		CA744		22	- 01 1F 80 80 - red jewel
+		CA748		23	- 01 20 80 80 - music notes
+		CA74C		24	- 01 21 80 80 - wolf medal
+		CA750		25	- 01 22 80 80 - eagle medal
+		CA754		26	- 01 23 80 02 - chemical (plant)
+		CA758		27	- 01 24 80 80 - battery
+		CA75C		28	- 01 25 80 80 - MO Disk
+		CA760		29	- 01 26 80 80 - wind crest
+		CA764		2A	- 01 27 80 80 - flare
+		CA768		2B	- 01 28 80 80 - slides
+		CA76C		2C	- 01 29 80 80 - moon crest
+		CA770		2D	- 01 2A 80 80 - star crest
+		CA774		2E	- 01 2B 80 80 - sun crest
+		CA778		2F	- 03 2C 19 80 - ink ribbon
+
+
+POINTER		OFFSET		NUMBER	HEX CODE
+
+		CA77C		30	- 00 2D 80 80 - lighter
+		CA780		31	- 00 2E 80 80 - lockpick
+		CA784		32	- 02 2F 80 80 - oil can
+		CA788		33	- 00 30 80 03 - sword key
+		CA78C		34	- 00 31 80 04 - armor key
+		CA790		35	- 00 32 80 05 - shield key
+		CA794		36	- 00 33 80 06 - helmet key
+		CA798		37	- 00 34 80 07 - lab key 1
+		CA79C		38	- 00 35 80 08 - closet key
+		CA7A0		39	- 00 36 80 09 - dorm key 002
+		CA7A4		3A	- 00 37 80 0A - dorm key 003
+		CA7A8		3B	- 00 38 80 80 - c. room key
+		CA7AC		3C	- 00 39 80 0B - lab key (2)
+		CA7B0		3D	- 01 3A 80 0C - small key (desks)
+		CA7B4		3E	- 01 3B 80 0D - red book
+		CA7B8		3F	- 01 3C 80 0E - doom book 1 (red/gold)
+		CA7BC		40	- 01 3D 80 0F - doom book 2 (blue/silver)
+		CA7C0		41	- 01 3E 80 80 - f. aid spray
+		CA7C4		42	- 01 3F 80 80 - serum
+		CA7C8		43	- 01 40 1A 80 - red herb
+		CA7CC		44	- 01 41 1B 80 - green herb
+		CA7D0		45	- 01 42 1C 80 - blue herb
+		CA7D4		46	- 01 43 1D 80 - Mixed (Red+Blue)
+		CA7D8		47	- 01 44 1E 80 - Mixed (Green+Green)
+		CA7DC		48	- 01 45 1F 80 - Mixed (Green+Blue)
+		CA7E0		49	- 01 46 20 80 - Mixed (All)
+		CA7E4		4A	- 01 47 21 80 - Mixed (Greenx3)
+		CA7E8		4B	- 01 48 22 80 - Mixed (Greenx2+Blue1)
+		CA7EC		4C	- 00 49 80 80 - pickaxe??
+		CA7F0		4D	- 00 4A 80 80 - comm radio
+				4E	- 00 00 00 00 - ?
